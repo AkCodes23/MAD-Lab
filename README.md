@@ -1,4 +1,4 @@
-# MAD-Lab
+8# MAD-Lab
 
 There will be 2 record submissions. The contents are as follows:
 
@@ -58,8 +58,11 @@ Pls follow the official Android documentation along with the following videos fo
 
 https://www.youtube.com/watch?v=OCceWupZ_Ik
 
+AIzaSyAblZIHBKsm6dabUuy71kMEAABloCoJ8gs
+
 (Master Coding)
 
 https://www.youtube.com/watch?v=PeCOKgAua7A&t=2659s
 
 (Ws Cube)
+
