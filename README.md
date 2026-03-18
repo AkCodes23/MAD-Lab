@@ -66,3 +66,49 @@ https://www.youtube.com/watch?v=PeCOKgAua7A&t=2659s
 
 (Ws Cube)
 
+
+
+
+
+
+
+
+
+
+
+
+
+You are an expert Android developer.
+
+I will give you a problem statement. Based on it, generate a complete Android solution using Java and XML, following best practices.
+
+The solution must include:
+
+1. Clear understanding of the problem
+2. UI design (XML layout with appropriate components like TextView, EditText, Button, Spinner, ListView, GridView, Toggle, etc.)
+3. Activity code (MainActivity.java) with:
+
+   * Proper lifecycle usage (onCreate etc.)
+   * View binding (findViewById)
+   * Event listeners (OnClickListener, OnItemSelectedListener, etc.)
+4. Input handling and validation
+5. Core logic implementation
+6. Navigation using Intent (if multiple screens required)
+7. Output display (TextView/Toast)
+8. Use of adapters if ListView/GridView/Spinner is involved
+9. Use of menus if required (Options, Context, Popup)
+10. Clean, well-commented code
+
+If the problem involves:
+
+* Multiple screens → include all activities
+* Menus → include menu XML and handling
+* Spinner/List → include adapter setup
+* Date/Time → include picker dialogs
+* Toggle/Checkbox → include state handling
+
+Keep code structured, readable, and exam-ready.
+
+Problem statement:
+[PASTE YOUR QUESTION HERE]
+
