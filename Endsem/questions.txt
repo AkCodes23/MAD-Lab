@@ -1,0 +1,198 @@
+🧩 QUESTION 1 — FULL STACK (MOST IMPORTANT)
+📌 Travel Ticket Booking System
+Requirements:
+Page 1:
+Name (EditText)
+Source & Destination (Spinner)
+Date (DatePicker)
+Ticket Type (AC/Non-AC → RadioGroup)
+Number of tickets (EditText)
+Submit button
+Page 2:
+Display all entered details
+Buttons:
+Confirm Booking
+Modify
+If Modify:
+Show 3 buttons:
+Create Table
+Insert Data
+Delete Booking
+Database:
+Store booking details using SQLite
+Additional:
+Toast on successful booking
+Validate empty fields
+
+👉 Covers:
+
+UI + Spinner + DatePicker + Radio
+Intent
+SQLite (CRUD)
+Toast
+🧩 QUESTION 2 — CONDITIONAL + PICKERS
+📌 Movie Ticket Booking System
+Requirements:
+Inputs:
+Movie (Spinner)
+Theatre (Spinner)
+Date (DatePicker)
+Time (TimePicker)
+Ticket Type (Standard/Premium → Toggle or Radio)
+Condition:
+Premium tickets allowed only after 12 PM
+Page 2:
+Show summary
+Database:
+Insert booking
+Display all bookings
+Toast:
+Show confirmation
+
+👉 Covers:
+
+TimePicker
+Conditional logic
+SQLite display
+🧩 QUESTION 3 — CHECKBOX + BILLING
+📌 Food Ordering Application
+Requirements:
+Page 1:
+Food items (Checkbox)
+Quantity (EditText)
+Submit button
+Page 2:
+Display selected items
+Show total cost
+Constraint:
+After submit → user cannot modify selection
+Database:
+Store order
+Delete order
+Toast:
+“Order placed successfully”
+
+👉 Covers:
+
+Checkbox
+Calculation
+State restriction
+🧩 QUESTION 4 — SHARED PREFERENCES + DB
+📌 User Profile Management App
+Requirements:
+Page 1:
+Name
+Age
+Gender (Radio)
+Preferences (Checkbox)
+Store:
+Save username using SharedPreferences
+Page 2:
+Display saved data
+Database:
+Insert profile
+Update profile
+Delete profile
+
+👉 Covers:
+
+SharedPreferences
+SQLite update
+🧩 QUESTION 5 — MENU + NAVIGATION
+📌 Fitness Center App
+Requirements:
+Home page with:
+Options Menu:
+Workout Plans
+Trainers
+Membership
+Each option opens new activity
+Add:
+Popup menu for actions
+Context menu on long press
+
+👉 Covers:
+
+Options Menu
+Context Menu
+Popup Menu
+🧩 QUESTION 6 — LISTVIEW + CONTEXT MENU
+📌 Installed Apps Manager
+Requirements:
+Display list using ListView
+On long press:
+Show context menu:
+Open
+Delete
+View details
+Toast for selected action
+
+👉 Covers:
+
+ListView
+Context menu
+🧩 QUESTION 7 — SPINNER + IMAGE + CUSTOM ADAPTER
+📌 Vehicle Parking System
+Requirements:
+Inputs:
+Vehicle type (Spinner with images)
+Vehicle number
+RC number
+Page 2:
+Show details
+Generate:
+Unique parking ID
+Database:
+Store parking records
+
+👉 Covers:
+
+Custom Spinner
+DB insert
+🧩 QUESTION 8 — TAB + MULTI SCREEN
+📌 News Application
+Requirements:
+Use TabLayout:
+Top Stories
+Sports
+Entertainment
+Each tab:
+Shows list of items
+On click:
+Show Toast
+
+👉 Covers:
+
+TabLayout
+Adapter
+🧩 QUESTION 9 — SEEKBAR + TOGGLE
+📌 Settings App
+Requirements:
+Brightness control (SeekBar)
+Mode selection (Toggle: WiFi/Mobile Data)
+Button → Apply settings
+Toast:
+Show selected values
+
+👉 Covers:
+
+SeekBar
+Toggle
+🧩 QUESTION 10 — ADVANCED HYBRID (VERY HIGH CHANCE)
+📌 Doctor Appointment System
+Requirements:
+Page 1:
+Patient Name
+Doctor (Spinner)
+Date (DatePicker)
+Time (TimePicker)
+Consultation type
+Page 2:
+Summary
+Modify:
+Create table
+Insert appointment
+Delete appointment
+Display all
+Toast:
+“Appointment confirmed”
